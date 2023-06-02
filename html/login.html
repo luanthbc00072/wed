@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-2 "><a href="../html/index.html"><img src="../image/logo.png" class="img-fluid"
+                            alt="Logo"></a></div>
+                <div class="col-md-4 py-4">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Từ khóa sách cần tìm" aria-label="Tìm kiếm"
+                            aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-4 py-4">
+                    <div class="row">
+                        <div class="col-md-6"><a href="../html/login.html"><b>Đăng nhập/Đăng kí </b></a><i
+                                class="fa-solid fa-user"></i></div>
+                        <div class="col-md-4"><a href="../html/product.html"><b>Giỏ hàng</b></a> <i
+                                class="fa-solid fa-bag-shopping"></i> </div>
+                    </div>
+                </div>
+                <div class="col-md-2 py-4"> <a href="#"><b>Thông báo</b></a> <i class="fa-solid fa-bell"></i></div>
+            </div>
+        </div>
+    </section>
+    <section class="login">
+        <div id="login">
+            <div class="container py-1">
+                <div id="login-row" class="row justify-content-center align-items-center">
+                    <div id="login-column" class="col-md-6 py-5">
+                        <div id="login-box" class="col-md-12">
+                            <form id="login-form" class="form" action="" method="post">
+                                <h3 class="text-center text-info">Đăng nhập</h3>
+                                <div class="form-group">
+                                    <label for="username" class="text-info">Tài khoản : </label><br>
+                                    <input type="text" name="username" id="username" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="text-info">Mật khẩu :</label><br>
+                                    <input type="text" name="password" id="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="remember-me" class="text-info"><span>Nhớ tài khoản</span> <span><input
+                                                id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                    <input type="submit" name="dangnhap" class="btn btn-info btn-md" value="Đăng nhập">
+                                </div>
+                                <div id="register-link" class="text-right">
+                                    <a href="../html/register.html" class="text-info">Đăng kí tại đây</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Các câu hỏi thường gặp</h5>
+                    <ul>
+                        <li><a href="#">Hướng dẫn mua hàng, đặt hàng</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Các phương thức thanh toán</a></li>
+                        <li><a href="#">Các hình thức vận chuyển</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Giới thiệu</h5>
+                    <ul>
+                        <li><a href="#">Cung cấp sản phẩm chính hãng</a></li>
+                        <li><a href="#">Đổi mới 100% nếu bị lỗi trong quá trình vận chuyển</a></li>
+                        <li><a href="#">Giao hàng nhanh chóng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Liên Hệ</h5>
+                    <ul>
+                        <li><a href="#">09876543312</a></li>
+                        <li><a href="#">Địa chỉ: 233 Nguyễn Văn Cừ, An Hòa, Ninh Kiều, Cần Thơ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Liên kết xã hội</h5>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Tik Tok</a></li>
+                        <li><a href="#">Zalo</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Giấy phép kinh doanh</h5>
+                    <p>Giấy phép số: L 517/GP-BTTTT ngày 6/10/2015 của Bộ Thông tin và Truyền thông</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Đăng kí nhận tin sớm nhất</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Nhập email ở đây"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text bg-danger text-white" id="basic-addon2">Đăng kí</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
